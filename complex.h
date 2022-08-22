@@ -6,7 +6,7 @@ template <class obj>
 class complex{
     public:
         complex() 
-            :real(0) imagine(0){}
+            :real(0) ,imagine(0){}
         complex(const obj & real_part)
             :real(real_part), imagine(0){}
         complex(const obj & real_part, const obj & imaginary_part)
